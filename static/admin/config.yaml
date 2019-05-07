@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+
+media_folder: static/assets
+public_folder: assets
+
+slug: { encoding: ascii, clean_accents: true }
+
+collections:
+  - name: articles
+    label: Bài viết
+    folder: static/articles
+    create: true
+    fields:
+      - { name: title, label: Tiêu đề }
+      - { name: description, label: Mô tả ngắn, widget: text, required: false }
+      - { name: tag, label: Thẻ bài viết, widget: string, required: false }
+      - { name: thumbnail, label: Ảnh bìa, widget: image, required: false }
+      - { name: body, label: Nội dung, widget: markdown, required: false }
+      - { name: date, label: Ngày đăng, widget: date, format: YYYY-MM-DD }

@@ -11,7 +11,7 @@ import configs from "../../site-config"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={configs.app_keywords} />
+    <SEO title="Cold Brew | Split and share bills" keywords={configs.app_keywords} />
 
     <div
       className="imageWrapper"
@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
       <div className="headerBackground">
         <div className="container">
           <header>
-            <div className="logo">
+            <Link to='/' className="logo">
               <div className="appIconShadow">
                 <svg width="0" height="0">
                   <defs>
@@ -43,7 +43,7 @@ const IndexPage = ({ data }) => (
                 />
               </div>
               <p className="headerName">{configs.app_name}</p>
-            </div>
+            </Link>
             <nav>
               <ul>
                 {configs.presskit_download_link && (

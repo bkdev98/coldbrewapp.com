@@ -5,31 +5,31 @@ export default createGlobalStyle`
   @font-face {
      font-family: 'Montserrat';
      font-weight: 300;
-     src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+     src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
   }
 
   @font-face {
      font-family: 'Montserrat';
      font-weight: 400;
-     src: url('fonts/Montserrat-Medium.ttf') format('truetype');
+     src: url('/fonts/Montserrat-Medium.ttf') format('truetype');
   }
 
   @font-face {
      font-family: 'Montserrat';
      font-weight: 500;
-     src: url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+     src: url('/fonts/Montserrat-SemiBold.ttf') format('truetype');
   }
 
   @font-face {
      font-family: 'Montserrat';
      font-weight: 600;
-     src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+     src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
   }
 
   @font-face {
      font-family: 'Montserrat';
      font-weight: 700;
-     src: url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
+     src: url('/fonts/Montserrat-ExtraBold.ttf') format('truetype');
   }
 
   html {
